@@ -17,4 +17,5 @@ int main()
 	std::cout << "The square of rectangle is " << S << std::endl;
 
 	return 0;
+	
 }
