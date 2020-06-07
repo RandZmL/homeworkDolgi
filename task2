@@ -1,0 +1,20 @@
+#include <iostream>
+
+int main()
+{
+	
+	int a;
+	int b;
+	int S;
+	
+	std::cout << "Enter width: ";
+	std::cin >> a;
+	std::cout << "Enter height: ";
+	std::cin >> b;
+
+	S = a * b;
+
+	std::cout << "The square of rectangle is " << S << std::endl;
+
+	return 0;
+}
