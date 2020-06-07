@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	
+	int a;
+	int b;
+	int c;
+
+	int a1;
+	int b1;
+	int c1;
+
+	int sum;
+	
+	cout << "Enter first number: ";
+	cin >> a;
+
+	cout << "Enter second number: ";
+	cin >> b;
+
+	cout << "Enter third number: ";
+	cin >> c;
+
+	a1 = a * 2;
+	b1 = b - 3;
+	c1 = c * c;
+
+	sum = a1 + b1 + c1;
+
+	cout << "The sum of new number is " << sum << endl;
+
+	return 0;
+}
