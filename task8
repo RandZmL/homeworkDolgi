@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+	
+	int x;
+	int res;
+
+	cout << "Task is retrieve: |x| + x^5, if x = -2" << endl;
+
+	x = -2;
+	res = abs(x) + pow(x, 5);
+
+	cout << "Answer is " << res << endl;
+
+	return 0;
+}
