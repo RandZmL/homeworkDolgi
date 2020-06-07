@@ -1,0 +1,55 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main() {
+
+	float res1;
+	float res2;
+	float number;
+	int choose;
+
+
+	cout << "What is the initial number system (choose digit)?" << endl;
+	cout << "1. Liters      2. Cubes      3. Barrels" << endl;
+	cout << "This is: ";
+	cin >> choose;
+
+	cout << "What is quantity of watter?" << endl;
+	cin >> number;
+
+	if (choose == 1) {
+
+		res1 = number * pow(10, -3);
+		cout << "From Liters to Cubes: " << res1 << endl;
+		res2 = number * (62.8981 * pow(10, -4));
+		cout << "From Liters to American Barrels: " << res2 << endl;
+
+	}
+
+	if (choose == 2) {
+
+		res1 = number * pow(10, 3);
+		cout << "From Cubes to Liters: " << res1 << endl;
+		res2 = number * 6.28981;
+		cout << "From Cubes to American Barrels: " << res2 << endl;
+
+	}
+
+	if (choose == 3) {
+
+		res1 = number * (62.8981 * pow(10, -4));
+		cout << "From American Barrels to Liters: " << res1 << endl;
+		res2 = number / 6.28981;
+		cout << "From American Barrels to Cubes: " << res2 << endl;
+
+	}
+	    
+	
+
+	getchar();
+	getchar();
+	return 0;
+
+}
