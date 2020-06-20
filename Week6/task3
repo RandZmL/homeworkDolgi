@@ -1,0 +1,40 @@
+#include <iostream>
+#include <iomanip> 
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+	using namespace std;
+	const int n = 10;
+	int arr[n]{ 44, 41, 3, 6, 42, 12, 1, 65, 2, 10 };
+	int chet = 0;
+	int nechet = 0;
+
+	srand(5374);
+
+	for (int i = 0; i < 1; i++)
+		//arr[i]{44, 41, 3, 6, 42, 12, 1, 65, 2, 10};
+
+	for (int i = 0; i < n; i++) {
+
+		if (arr[i] % 2 == 0) {
+			chet = chet + arr[i];
+			cout << "Summ log " << chet << endl;
+			cout << "======================" << endl;
+		}
+
+		else {
+			nechet = nechet + arr[i];
+		}
+	}
+
+	cout << "Evens' sum is " << chet << endl;
+	cout << "Odds' sum is " << nechet << endl;
+	
+
+	std::getchar();
+	std::getchar();
+
+	return 0;
+}
