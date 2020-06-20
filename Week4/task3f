@@ -1,0 +1,42 @@
+#include <iostream>
+#include <iomanip> 
+#include <math.h>
+
+int main() {
+
+	using namespace std;
+
+	float x, y;
+
+	cout << "Enter x: ";
+	cin >> x;
+
+
+	if (x > 5) {
+
+		y = pow(2*x, 2) + 10;
+		cout << y << endl;
+
+	}
+
+	if (x == 0) {
+
+		y = 0;
+		cout << y << endl;
+
+	}
+
+	if (x < 5) {
+
+		y = 2 * fabs(x + 6) - pow(x, 2);
+		cout << y << endl;
+
+	}
+
+
+
+	std::getchar();
+	std::getchar();
+
+	return 0;
+}
