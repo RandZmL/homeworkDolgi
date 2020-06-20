@@ -1,0 +1,27 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main() {
+
+	int n;
+	int s;
+	int res;
+
+	cout << "Enter your number: ";
+	cin >> n;
+	cout << "Enter degree of number: ";
+	cin >> s;
+
+	res = pow(n, s);
+
+	cout << "Number " << n << " to " << s << " is " << res;
+
+	
+
+	getchar();
+	getchar();
+	return 0;
+
+}
