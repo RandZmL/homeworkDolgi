@@ -1,0 +1,31 @@
+#include <stdlib.h>
+
+int main() {
+
+	using namespace std;
+	const int n = 10;
+	int arr[n]{ 44, 41, 3, -6, 42, 12, -1, -65, 2, 10 };
+	int arr2[n]{ 24, 47, 13, 2, -4, 6, 91, 5, -4, -90 };
+	int arrSum[n];
+
+
+		for (int i = 0; i < n; i++) {
+
+			arrSum[i] = arr[i] - arr2[i];
+
+		}
+
+		cout << "New massive is ";
+
+		for (int i = 0; i < n; i++) {
+
+			cout << arrSum[i] << " ";
+
+		}
+
+
+	std::getchar();
+	std::getchar();
+
+	return 0;
+}
