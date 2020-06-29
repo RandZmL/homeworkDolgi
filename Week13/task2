@@ -1,0 +1,29 @@
+#include <iostream>
+#include <fstream>
+#include <time.h>
+#include <stdlib.h>
+
+
+using namespace std;
+
+
+int main() {
+
+	setlocale(LC_ALL, "Russian");
+
+	int sum = 0;
+	string s1 = " ";
+
+	cout << "Введите свой текст: " << endl;
+	cin >> s1;
+
+	if (s1.find(" мир ") or s1.find(" Мир ")) {
+
+		sum++;
+
+	}
+
+	cout << "Сумма слов Мир в Вашем тексте: " << sum << endl;
+
+	return 0;
+}
