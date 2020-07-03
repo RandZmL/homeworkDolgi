@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+
+int main() {
+
+	string s1;
+	string s2 = "";
+	cout << "Enter your text: ";
+	cin >> s1;
+	
+	for (int i = 0; i < s1.length(); i++) 
+	{
+		s2 += s1[i];
+		s2 += " ";
+
+	}
+
+	cout << s2;
+
+
+	return 0;
+}
